@@ -1,0 +1,18 @@
+﻿<Window x:Class="HW_WPF_Lesson5_BubblingEvent.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HW_WPF_Lesson5_BubblingEvent"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="LargeButton" Click="LargeButton_Click" Margin="248,169,221,175">
+            <Button x:Name="SmallButton"    
+                    Content="Small Button"    
+                    Height="35"    
+                    Width="175" Click="SmallButton_Click">
+            </Button>
+        </Button>
+    </Grid>
+</Window>
